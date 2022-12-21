@@ -2,17 +2,23 @@
 
 Hardware
 - Power Supply: 
-  * 1x External Siemens PSU (In: 220VAC 1 Phase, Out: 24VDC)
+  * 1x External Siemens PSU (Input 220VAC 1 Phase, Output 24VDC)
 - CPU:
   * 1x Siemens Compact PLC 1200 DC/DC/DC
 - Digital Input: 
   * 1x Start Push Button(NO) %I0.1
   * 1x STOP Push Button (NC) %I0.0
 - Digital Output:
-  * 5x 24VDC Lamps %Q0.0, %Q0.4, %Q0.5, %Q0.6, %Q0.7
-  * 1x 24VDC Buzzer with Lamp %Q1.1
+  * 5x 24VDC Lamps %Q0.0 (Blue), %Q0.4 (Red), %Q0.5 (Yellow), %Q0.6 (Green), %Q0.7 (White)
+  * 1x 24VDC Buzzer with Lamp %Q1.1 (Red)
 - Cabling:
   * AWG 16 with ferrules
+- Cabling (color)
+  * 220VAC Live: brown, 220VC Neutral: blue
+  * 24VDC+: red, 24VDC common: black
+  * 24VDC Digital Input: white
+  * 24VDC Digital Output: orange
+  * 24VDC Common: black
 - PLC Firmware level:
   * 4.6.0
 
