@@ -31,11 +31,12 @@ Application Software
 
 PLC Programming
 - Ladder Diagram (LD) with Function Block (FB)
-- Start Push Button (NO) ON -> Enabling Counter -> Passing Clock signal 1 Hz -> Lamps are energized (activated)
-- Stop Push Button (NC) ON -> Disabling Counter -> Blocking Clock signal 1 Hz -> Lamps are de-energized (deactivated)
-  * Note that Stop Push Button is NO in the program, but NC in the hardware wiring
-- Utilize the counter, compare instruction and memory bit while the Clock signal is passed to the counter
-  * Every 15 seconds, the buzzer is energized for 1 second
+- Programming logic
+  * If Start Push Button (NO) pressed -> Enabling Counter -> Passing Clock signal 1 Hz -> Lamps are energized (activated)
+  * If Stop Push Button (NC) pressed -> Disabling Counter -> Blocking Clock signal 1 Hz -> Lamps are de-energized (deactivated)
+  * Note that Stop Push Button is NO in the program, but NC in the hardware wiring for safety 
+  * Utilize the counter, and compare instruction and memory bit while the Clock signal is passed to the counter
+  * Note that every 15 seconds, the buzzer is energized for 1 second
 
 
 
