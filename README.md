@@ -1,5 +1,7 @@
-"HELLO WORLD" in Industrial Automation, Towards Industry 4.0
-See the article at https://medium.com/@andisama/towards-industry-4-0-2-plc-programming-hello-world-ce8e35a49944
+"HELLO WORLD" in Industrial Automation, Towards Industry 4.0.
+
+See the article at https://medium.com/andisama/towards-industry-4-0-2-plc-programming-hello-world-ce8e35a49944.
+
 
 Hardware
 - Power Supply: 
